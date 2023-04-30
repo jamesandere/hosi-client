@@ -1,12 +1,6 @@
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
-import {
-  BrowserRouter,
-  HashRouter,
-  Navigate,
-  Route,
-  Routes,
-} from "react-router-dom";
+import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import Patients from "./pages/patients/Patients";
 import PatientsHub from "./pages/patients/PatientsHub";
 import AddPatient from "./pages/patients/AddPatient";
@@ -26,7 +20,7 @@ import RequireAuth from "./components/RequireAuth";
 function App() {
   return (
     <div className="">
-      <HashRouter>
+      <BrowserRouter basename="/hosi-client">
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -49,7 +43,7 @@ function App() {
           <Route path="/unauthorized" element={<Unauthorized />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
-      </HashRouter>
+      </BrowserRouter>
     </div>
   );
 }
