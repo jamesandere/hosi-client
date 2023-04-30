@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/hosi-client/static/css/main.10bc4fc3.css",
+    "main.js": "/hosi-client/static/js/main.0d5653de.js",
+    "index.html": "/hosi-client/index.html",
+    "main.10bc4fc3.css.map": "/hosi-client/static/css/main.10bc4fc3.css.map",
+    "main.0d5653de.js.map": "/hosi-client/static/js/main.0d5653de.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.10bc4fc3.css",
+    "static/js/main.0d5653de.js"
+  ]
+}
